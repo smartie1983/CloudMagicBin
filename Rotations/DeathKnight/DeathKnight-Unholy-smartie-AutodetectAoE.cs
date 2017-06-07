@@ -541,12 +541,12 @@ namespace CloudMagic.Rotation
 					WoW.CastSpell("Raise Dead") ;
 					return;
 				}
-				if (WoW.CanCast("Obliterate", false, false, true, false, false) && isCheckHotkeysFrostFreeDeathstrike && WoW.HealthPercent <= FrostFreeDeathstrikeHPPercent && WoW.PlayerHasBuff("Free DeathStrike"))
+				if (WoW.CanCast("Death Coil", false, false, true, false, false) && isCheckHotkeysFrostFreeDeathstrike && WoW.HealthPercent <= FrostFreeDeathstrikeHPPercent && WoW.PlayerHasBuff("Free DeathStrike"))
 				{
 					WoW.CastSpell("Death Strike");
 					return;
 				}
-				if (WoW.CanCast("Obliterate", false, false, true, false, false) && isCheckHotkeysFrostDeathstrike && WoW.HealthPercent <= FrostDeathstrikeHPPercent && WoW.RunicPower >=45)
+				if (WoW.CanCast("Death Coil", false, false, true, false, false) && isCheckHotkeysFrostDeathstrike && WoW.HealthPercent <= FrostDeathstrikeHPPercent && WoW.RunicPower >=45)
 				{
 					WoW.CastSpell("Death Strike");
 					return;
