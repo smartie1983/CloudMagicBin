@@ -141,13 +141,13 @@ local Spec = { Id ={
     [ 252 ] =  85948 , -- Festering Strike
 	[ 250 ] =  49998 , -- Death Strike
 	[ 71 ] =  12294 , -- Mortal Strike
-	[577] = 162243,
-	[581] =203782,
-	[259] ="Mutilate",
-	[260] ="Saber Slash",
-	[261] ="Backstab",
-	[72] ="Bloodthirst",
-	[73] = "Devastate",	},
+	[ 577 ] = 162243 , --Demon's Bite
+	[ 581 ] =203782 , --Shear
+	[ 259 ] =1329 , --Mutilate
+	[ 260 ] =193315 , --Saber Slash
+	[ 261 ] =53 , --Backstab
+	[ 72 ] ="Bloodthirst",
+	[ 73 ] = "Devastate",	},
 	Spell = {
 	[ 102 ] =  190984 , -- Solar Wrath
 	[ 103 ] =  5221 , -- Shre
@@ -181,13 +181,13 @@ local Spec = { Id ={
     [ 252 ] =  85948 , -- Festering Strike
 	[ 250 ] =  49998 , -- Death Strike
 	[ 71 ] =  12294 , -- Mortal Strike
-	[577] = "Demon's Bite",
-	[581] ="Shear",
-	[259] ="Mutilate",
-	[260] ="Saber Slash",
-	[261] ="Backstab",
-	[72] ="Bloodthirst",
-	[73] = "Devastate",}
+	[ 577 ] = 162243 , --Demon's Bite
+	[ 581 ] =203782 , --Shear
+	[ 259 ] =1329 , --Mutilate
+	[ 260 ] =193315 , --Saber Slash
+	[ 261 ] =53 , --Backstab
+	[ 72 ] ="Bloodthirst",
+	[ 73 ] = "Devastate",	},
 }
 
 -- Actual Addon Code below
