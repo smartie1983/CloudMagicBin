@@ -109,7 +109,8 @@ local Spec = { Id ={
 	[73] = 0.34,
 	[266] = 0.35,
     [267] = 0.36},
-	Interrupt = {	[ 262 ] =  57994 , -- Wind Shear
+	Interrupt = {	
+	[ 262 ] =  57994 , -- Wind Shear
     [ 264 ] =  57994 , -- Wind Shear
     [ 263 ] =  57994 , -- Wind Shear
 	[ 102 ] =  190984 , -- Solar Wrath
@@ -147,7 +148,8 @@ local Spec = { Id ={
 	[ 260 ] = 193315 , --Saber Slash
 	[ 261 ] = 53 , --Backstab
 	[ 72 ] = 23881 , --Bloodthirst
-	[ 73 ] = 20243 , --Devastate	},
+	[ 73 ] = 20243 , --Devastate	
+	},
 	Spell = {
 	[ 102 ] =  190984 , -- Solar Wrath
 	[ 103 ] =  5221 , -- Shre
@@ -187,7 +189,8 @@ local Spec = { Id ={
 	[ 260 ] = 193315 , --Saber Slash
 	[ 261 ] = 53 , --Backstab
 	[ 72 ] = 23881 , --Bloodthirst
-	[ 73 ] = 20243 , --Devastate	},
+	[ 73 ] = 20243 , --Devastate	
+	},
 }
 
 -- Actual Addon Code below
